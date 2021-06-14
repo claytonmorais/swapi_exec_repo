@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletContextInitializer;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -25,7 +24,7 @@ import br.com.swapi.api.model.starwars.service.FilmService;
  */
 @SpringBootApplication
 @ComponentScan
-public class Application extends SpringBootServletInitializer implements Constants {
+public class Application implements Constants {
 
 	private static final Logger LOGGER = LogManager.getLogger(Application.class);
 	
