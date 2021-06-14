@@ -4,7 +4,7 @@ Projeto conceito para utilização de Serviço Rest com Spring Boot
 
 ## Iniciando o Projeto
 
-O projeto contém alguns exemplos de serviço REST. O projeto já está configurado para Rodar no Servidor Jboss.
+O projeto contém alguns exemplos de serviço REST. O projeto já está configurado em modo standalone
 
 ### Pré requisitos
 
@@ -24,7 +24,6 @@ Utilize o postman Para rodar os testes.
 
 Collection estão na raiz do repositório.
 
-Este projeto é pensando para deploy no heroku
 
 ```
 SWAPI - API - LOCAL.postman_collection.json
