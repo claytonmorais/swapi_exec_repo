@@ -91,6 +91,10 @@
 		    <version>${spring.boot.version}</version>
 		    <executions>
 		        <execution>
+					<id>default</id>
+                    <goals>
+                       <goal>repackage</goal>
+                    </goals>		        
 		            <configuration>
 		                <mainClass>br.com.swapi.api.Application</mainClass>
 		            </configuration>
